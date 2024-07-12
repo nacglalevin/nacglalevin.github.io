@@ -1,0 +1,46 @@
+        body {
+            font-family: Arial, sans-serif; /* 设置字体 */
+        }
+        .header {
+            background-color: #333; /* 设置页眉背景颜色 */
+            color: white; /* 设置页眉文字颜色 */
+            padding: 10px 0; /* 设置页眉内边距 */
+            text-align: center; /* 设置页眉文字居中对齐 */
+        }
+        .nav {
+            background-color: #555; /* 设置导航栏背景颜色 */
+            color: white; /* 设置导航栏文字颜色 */
+        }
+        .nav ul {
+            padding: 0; /* 设置导航栏无内边距 */
+            list-style: none; /* 设置导航栏无列表样式 */
+            text-align: center; /* 设置导航栏文字居中对齐 */
+        }
+        .nav ul li {
+            display: inline; /* 设置导航栏列表项内联显示 */
+            margin: 0 10px; /* 设置导航栏列表项间距 */
+        }
+        .nav ul li a {
+            color: white; /* 设置导航栏链接文字颜色 */
+            text-decoration: none; /* 设置导航栏链接无下划线 */
+        }
+        .content {
+            margin: 15px; /* 设置内容区域外边距 */
+        }
+        .post {
+            border: 1px solid #e1e1e1; /* 设置帖子边框 */
+            padding: 10px; /* 设置帖子内边距 */
+            margin-bottom: 15px; /* 设置帖子之间间距 */
+        }
+        .post h2 {
+            color: #333; /* 设置帖子标题颜色 */
+        }
+        .post p {
+            color: #666; /* 设置帖子内容颜色 */
+        }
+        .footer {
+            background-color: #333; /* 设置页脚背景颜色 */
+            color: white; /* 设置页脚文字颜色 */
+            text-align: center; /* 设置页脚文字居中对齐 */
+            padding: 5px 0; /* 设置页脚内边距 */
+        }
