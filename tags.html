@@ -1,0 +1,21 @@
+---
+layout: default
+title: Tags
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <h1>Tags</h1>
+      {% assign tags = site.tags | sort %}
+      {% for tag in tags %}
+        <h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
+        <ul>
+          {% for post in tag[1] %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y-%m-%d" }})</li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </div>
+  </div>
+</div>
