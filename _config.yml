@@ -1,0 +1,17 @@
+title: Lalevin
+subtitle: "Stay hungry, stay foolish."
+description: "Lalevin 的个人博客"
+author: Lalevin
+avatar: /images/avatar.jpg
+email: lalevin@example.com
+
+# 分页
+paginate: 5
+paginate_path: "/page:num/"
+
+# 构建设置
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-paginate
